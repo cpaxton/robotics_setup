@@ -20,11 +20,12 @@ echo "##########################################################################
 echo ""
 # partly based on https://github.com/ahundt/homebrew-robotics/blob/master/robonetracker.sh
 
-sh ros_kinetic.sh
-sh cmake-basis.sh
-sh eigen3.sh
-sh ceres.sh
-sh camodocal.sh
+# sh ros_kinetic.sh
+./cmake-basis.sh
+./eigen3.sh
+./ceres.sh
+./camodocal.sh
+./robotics_tasks.sh
 sudo apt install  libceres-dev libgoogle-glog-dev
 
 

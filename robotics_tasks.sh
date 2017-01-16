@@ -6,9 +6,9 @@ set -e
 set -u
 set -x
 
-sudo apt update
-sudo apt install -y libtool pkg-config build-essential autoconf automake cmake cmake-curses-gui pkg-config
-sudo apt install -y libboost-all-dev libeigen3-dev doxygen
+#sudo apt update
+#sudo apt install -y libtool pkg-config build-essential autoconf automake cmake cmake-curses-gui pkg-config
+#sudo apt install -y libboost-all-dev libeigen3-dev doxygen
 
 sh python.sh
 

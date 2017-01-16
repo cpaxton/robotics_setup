@@ -17,7 +17,7 @@ echo "https://github.com/RWTHmediTEC/TRTK"
 cd ~/src/
 if [ ! -d ~/src/TRTK ]
 then
-	git clone --recursive git@github.com:ahundt/TRTK.git # git@github.com:RWTHmediTEC/TRTK.git
+	git clone --recursive https://github.com/ahundt/TRTK.git # git@github.com:RWTHmediTEC/TRTK.git
 fi
 
 cd TRTK
