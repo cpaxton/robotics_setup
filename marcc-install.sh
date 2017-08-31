@@ -71,7 +71,7 @@ echo "# https://github.com/jhollowayj/tensorflow_slurm_manager"
 source $DIR/marcc-config.sh
 
 # save the set of modules to enable reloading in the future
-module save robotics_setup_modules
+#module save robotics_setup_modules
 
 mkdir -p $HOME/src
 mkdir -p $HOME/bin
